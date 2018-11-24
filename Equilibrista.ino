@@ -18,10 +18,6 @@ uint32_t timer;
 void setup()
 {
   Serial.begin(9600);
-  //Inicializa o LCD
-  Wire.begin();
-  Wire.beginTransmission(MPU);
-  Wire.write(0x6B);
 
   //Inicializa o MPU-6050
   Wire.write(0);
