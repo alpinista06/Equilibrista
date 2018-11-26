@@ -5,6 +5,7 @@
 Kalman kalmanX; // Criando instancias para a classe Kalman
 Kalman kalmanY;
 
+
 //Endereco I2C do MPU6050
 const int MPU=0x68;
 //Variaveis para armazenar valores dos sensores
