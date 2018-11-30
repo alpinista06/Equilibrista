@@ -1,5 +1,3 @@
-int IN0A, IN1A, IN0B, IN1B;
-
 int ENA = 9; // motor esquerdo
 
 int ENB = 10; //motor direito
@@ -57,4 +55,15 @@ void re(int velocidade) {
   Serial.print("\t");
   Serial.println(velocidade);
   #endif
+}
+
+void motores_parados() {
+  
+  digitalWrite(motor1_a , HIGH);
+
+  digitalWrite(motor1_b , HIGH);
+
+  digitalWrite(motor2_a , HIGH);
+
+  digitalWrite(motor2_b , HIGH);
 }
