@@ -10,5 +10,6 @@
 
  [X] - Ponte H L298N [DATASHEET](https://www.st.com/en/motor-drivers/l298.html)
 
+[ ](img/eixo.jpgg)
 
  ## PROJETO EM ANDAMENTO...
