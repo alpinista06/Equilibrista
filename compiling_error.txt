@@ -1,0 +1,5 @@
+/home/mario/Documentos/Git_hub/Equilibrista/lista_da_rita.c: In function ‘main’:
+/home/mario/Documentos/Git_hub/Equilibrista/lista_da_rita.c:56:5: error: expected declaration or statement at end of input
+     printf("Inicializacao encerrada");
+     ^~~~~~
+/home/mario/Documentos/Git_hub/Equilibrista/lista_da_rita.c:56:5: error: expected declaration or statement at end of input
