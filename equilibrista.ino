@@ -1,7 +1,10 @@
 #include<Wire.h>
 #include <Kalman.h>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8767005fda205a85ad9813439e0c1118341e12bb
 #define PRINT_KALMAN_COMPARE
 //#define PRINT_VELOCIDADE
 //#define SINAL_CONTROLE
@@ -115,7 +118,11 @@ void loop()
   Serial.print(pitch);
   Serial.print("\t");
   Serial.println(kalAngleY);
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 8767005fda205a85ad9813439e0c1118341e12bb
 #endif
 
   sinal_de_controle = compensador(kalAngleY);
