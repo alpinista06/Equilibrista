@@ -29,7 +29,7 @@ resposta_i = resposta_i > 255 ? 255 : resposta_i;
 //Resposta_PID = resposta_p + resposta_i + resposta_d;
 Resposta_PI = resposta_p + resposta_i
 erro_anterior = erro;
-controle = abs(Resposta_PID);
+controle = abs(Resposta_PI);
 
 #ifdef SINAL_CONTROLE
 Serial.print("\t");
