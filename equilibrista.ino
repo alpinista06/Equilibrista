@@ -114,11 +114,6 @@ void loop()
   Serial.print(pitch);
   Serial.print("\t");
   Serial.println(kalAngleY);
-<<<<<<< HEAD
-
-=======
-
->>>>>>> 8767005fda205a85ad9813439e0c1118341e12bb
 #endif
 
   sinal_de_controle = compensador(kalAngleY);
